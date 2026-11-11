@@ -36,18 +36,7 @@ export const projects: Project[] = [
     liveUrl: 'https://policylens-ai.s3.ap-southeast-2.amazonaws.com/index.html',
     githubUrl: 'https://github.com/the-devel0per/PolicyLensAI',
   },
-    {
-    id: 'accessaudit-ai',
-    title: 'AccessAudit AI',
-    category: 'AI Accessibility Auditor',
-    description:
-      'An AI-powered accessibility auditing tool that analyzes UI screenshots and generates WCAG-based reports with actionable findings.',
-    technologies: ['Python', 'FastAPI', 'JavaScript', 'AWS'],
-    image: '/AAA.webp',
-    imageAlt: 'Screenshot of the AccessAudit AI interface',
-    liveUrl: 'http://accessaudit-ai-amiya-p1.s3-website-ap-southeast-2.amazonaws.com/',
-    githubUrl: 'https://github.com/the-devel0per/AccessAudit-AI',
-  },
+   
    {
     id: 'je-audit',
     title: 'JE Audit',
@@ -59,6 +48,18 @@ export const projects: Project[] = [
     imageAlt: 'Screenshot of the JE Audit interface',
     liveUrl: 'http://jegaurd.s3-website-ap-southeast-2.amazonaws.com/',
     githubUrl: 'https://github.com/the-devel0per/jeaudit',
+  },
+   {
+    id: 'accessaudit-ai',
+    title: 'AccessAudit AI',
+    category: 'AI Accessibility Auditor',
+    description:
+      'An AI-powered accessibility auditing tool that analyzes UI screenshots and generates WCAG-based reports with actionable findings.',
+    technologies: ['Python', 'FastAPI', 'JavaScript', 'AWS'],
+    image: '/AAA.webp',
+    imageAlt: 'Screenshot of the AccessAudit AI interface',
+    liveUrl: 'http://accessaudit-ai-amiya-p1.s3-website-ap-southeast-2.amazonaws.com/',
+    githubUrl: 'https://github.com/the-devel0per/AccessAudit-AI',
   },
   
 
