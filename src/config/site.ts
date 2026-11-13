@@ -30,7 +30,7 @@ export const projects: Project[] = [
     category: 'Briefing · Personalized news briefing',
     description:
       'A curated daily top-10 news briefing with per-user category muting, and a server-ranked and de-duplicated stories, publisher images, Gemini-written witty headlines.',
-    technologies: ['Python', 'FastAPI', 'ViteJS', 'AWS', 'DynamoDB'],
+    technologies: ['ViteJS', 'Shell', 'Python', 'AWS', 'DynamoDB'],
     image: '/Brefing.webp',
     imageAlt: 'Screenshot of the Briefing interface',
     liveUrl: 'https://d1cj0lzkfkkjhk.cloudfront.net/',
