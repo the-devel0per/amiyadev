@@ -29,7 +29,7 @@ export const projects: Project[] = [
     title: 'Briefing',
     category: 'Less noise. More important stories. A little intelligence and a little humour.',
     description:
-      'A curated daily top-10 news briefing (Technology, Government & Policy, Crypto, Stocks & Markets) with per-user category muting, and a server-ranked and de-duplicated stories, publisher images, Gemini-written witty headlines.',
+      'A curated daily top-10 news briefing with per-user category muting, and a server-ranked and de-duplicated stories, publisher images, Gemini-written witty headlines.',
     technologies: ['Python', 'FastAPI', 'ViteJS', 'AWS', 'DynamoDB'],
     image: '/Brefing.webp',
     imageAlt: 'Screenshot of the Briefing interface',
