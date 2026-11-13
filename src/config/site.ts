@@ -27,7 +27,7 @@ export const projects: Project[] = [
   {
     id: 'briefing',
     title: 'Briefing',
-    category: 'Less noise. More important stories. A little intelligence and a little humour.',
+    category: 'Briefing · Personalized news briefing',
     description:
       'A curated daily top-10 news briefing with per-user category muting, and a server-ranked and de-duplicated stories, publisher images, Gemini-written witty headlines.',
     technologies: ['Python', 'FastAPI', 'ViteJS', 'AWS', 'DynamoDB'],
