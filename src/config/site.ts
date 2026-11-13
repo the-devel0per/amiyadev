@@ -24,6 +24,21 @@ export const site: SiteConfig = {
 
 export const projects: Project[] = [
 
+
+  
+    {
+    id: 'je-audit',
+    title: 'JE Audit',
+    category: 'JE Guard · Automated journal entry testing',
+    description:
+      'An AI-powered journal entry testing tool that automates the validation of financial entries against predefined rules and regulations.',
+    technologies: ['Python', 'FastAPI', 'ViteJS', 'AWS', 'DynamoDB'],
+    image: '/je.webp',
+    imageAlt: 'Screenshot of the JE Audit interface',
+    liveUrl: 'http://jegaurd.s3-website-ap-southeast-2.amazonaws.com/',
+    githubUrl: 'https://github.com/the-devel0per/jeaudit',
+  },
+
   {
     id: 'policylens-ai',
     title: 'PolicyLens AI',
@@ -37,18 +52,7 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/the-devel0per/PolicyLensAI',
   },
    
-   {
-    id: 'je-audit',
-    title: 'JE Audit',
-    category: 'JE Guard · Automated journal entry testing',
-    description:
-      'An AI-powered journal entry testing tool that automates the validation of financial entries against predefined rules and regulations.',
-    technologies: ['Python', 'FastAPI', 'ViteJS', 'AWS', 'DynamoDB'],
-    image: '/je.webp',
-    imageAlt: 'Screenshot of the JE Audit interface',
-    liveUrl: 'http://jegaurd.s3-website-ap-southeast-2.amazonaws.com/',
-    githubUrl: 'https://github.com/the-devel0per/jeaudit',
-  },
+ 
    {
     id: 'accessaudit-ai',
     title: 'AccessAudit AI',
